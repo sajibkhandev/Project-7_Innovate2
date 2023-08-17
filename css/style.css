@@ -1,0 +1,1614 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+  list-style: none;
+  padding: 0;
+}
+
+
+/* common css 
+===============
+===============*/
+
+
+.title2 h6{
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #FD5F36;
+  margin-bottom: 8px;
+}
+.title2 h3{
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #30344E;
+  margin-bottom: 20px;
+  width: 584px;
+}
+.title2 p{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #5B5F77;
+  margin-bottom: 26px;
+  width: 566px;
+}
+/* common css 
+=============
+==============*/
+
+
+/* ====================
+navber part start
+===================== */
+.navbar{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+.nav-item{
+    margin-left: 30px;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+  transition: .4s;
+}
+.btn1{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    margin-left: 120px;
+
+}
+.btn2{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #30344E;
+    padding: 14px 28px !important;
+   background: white;
+   border-radius: 5px;
+   
+  
+}
+.nav-link i{
+  margin-left: 7px;
+}
+.hoverLink:hover {
+  color: #52C5B6 !important;
+  
+}
+.btn2:hover {
+ 
+  background-color: #FD5F36;
+  color: white;
+}
+/* ====================
+navber part end
+===================== */
+/* ====================
+banner part start
+===================== */
+.banner{
+    background: #30344E;
+    padding-top: 170px;
+    padding-bottom: 45px;
+    position: relative;
+    overflow: hidden;
+}
+.banner .title1 h1{
+  font-size: 60px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  line-height: 74px;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.banner .title1 p{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  line-height: 32px;
+  color: #fff;
+  margin-bottom: 35px;
+  width: 540px;
+}
+.banner .title1 a{
+  font-size: 18px;
+  font-weight: 600;
+  background: #FD5F36;
+  color: white;
+  padding: 14px 28px;
+  font-family: 'Poppins', sans-serif;
+border-radius: 5px;
+text-transform: capitalize;
+  display: inline-block;
+  margin-bottom: 40px;
+  transition: .4s;
+}
+.banner .title1 a:hover {
+ 
+  background-color: white;
+  color: black;
+}
+  /* ==============
+  Card
+  =============== */
+ 
+  .imgpart{
+    position: relative;
+    margin-right: 175px;
+
+  }
+  .imgpart .img1{
+    position: absolute;
+    top: 0;
+    left: 0;
+ 
+   }
+  .imgpart .img2 {
+    position: absolute;
+    top: 0px;
+    left: 29px;
+    z-index: 1;
+    animation: img2 2s infinite linear  ;
+  }
+  @keyframes img2{
+    from{
+      left:0px;
+    }to{
+      left:29px;
+
+    }
+
+  }
+  .imgpart .img3 {
+    position: absolute;
+    top: 0;
+    left: 61px;
+    z-index: 2;
+    animation: img3 2s infinite linear ;
+  }
+  @keyframes img3{
+    from{
+      left:0px;
+    }to{
+      left:61px;
+
+    }
+
+  }
+  .imgpart .img4 {
+    position: absolute;
+    top: 0;
+    left: 91px;
+    z-index: 10;
+    animation: img4 2s infinite linear ;
+  }
+  @keyframes img4{
+    from{
+      left:0px;
+    }to{
+      left:91px;
+
+    }
+
+  }
+  
+  
+  
+.banner .pOne {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  margin-bottom: 50px;
+  
+}
+.banner .pOne span{
+  font-weight: 700;
+  color: #52C5B6;
+  
+  
+}
+/* Card 
+=========
+========= */
+.card1{
+  display: flex;
+  position: relative;
+}
+.aniImg {
+	position: absolute;
+	left: 360px;
+	top: -146px;
+  animation: aniImg1 2s infinite linear alternate;
+}
+@keyframes aniImg1{
+  from{
+    transform: translateY(-30px);
+  }
+  to{
+    transform: translateY(0px);
+
+  }
+}
+.aniImg2 {
+	position: absolute;
+	right: -101px;
+	top: -155px;
+  animation: aniImg2 2s infinite linear alternate;
+}
+@keyframes aniImg2{
+  from{
+    transform: translateX(-30px);
+  }
+  to{
+    transform: translateX(0px);
+
+  }
+}
+.aniImg3 {
+	position: absolute;
+	bottom: -67px;
+	right: -120px;
+}
+.aniImg4 {
+	position: absolute;
+	bottom: -9px;
+	right: -71px;
+  animation: aniImg4 1.5s infinite linear alternate;
+}
+@keyframes aniImg4{
+  from{
+    width: 120px;
+  }
+  to{
+    width: 110px;
+
+  }
+}
+.aniImg5 {
+	position: absolute;
+	bottom: 27px;
+	right: -34px;
+  animation: aniImg5 1s infinite linear ;
+}
+@keyframes aniImg5{
+  from{
+    width: 45px;
+  }
+  to{
+    width: 35px;
+
+  }
+}
+/* Card 
+=========
+========= */
+
+.pain{
+  display: flex;
+}
+.pain h6{
+  font-size: 26px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  color: #52C5B6;
+  margin-right: 16px;
+}
+.profile p{
+  color: #FDB400;
+  font-size: 16px;
+  margin-left: 4px;
+  
+}
+.profile .ptwo{
+  font-size: 18px;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+  
+
+}
+.bannerImg1{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.bannerimg1 {
+	position: absolute;
+	right: 0px;
+	top: 0;
+	width: calc(50% - 108px);
+  height: 914px;
+  
+}
+.bannerimg2 {
+	position: absolute;
+	right: 0px;
+	top: 204px;
+	width: calc(50% - 130px);
+}
+
+.leftSideAni {
+	width: 160px;
+	height: 160px;
+	border: 4px solid #C4C4C4;
+	border-radius: 50%;
+	position: absolute;
+	top: 115px;
+	left: -118px;
+  animation: fan2 3s infinite linear;
+}
+.leftSideAniTwo{
+  width: 30px;
+  height: 30px;
+  background-color: #C4C4C4;
+  border-radius: 50%;
+  position: absolute;
+	top: 15px;
+	right: 0px;
+
+}
+@keyframes fan2{
+  from{
+    transform: rotate(360deg);
+  }to{
+    transform: rotate(0deg);
+
+  }
+}
+.rightSideAni{
+  width: 110px;
+	height: 110px;
+	border: 4px solid #C4C4C4;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0px;
+	right: -60px;
+  animation: fan2 3s infinite linear;
+
+}
+.rightSideAniTwo{
+  width: 20px;
+  height: 20px;
+  background-color: #C4C4C4;
+  border-radius: 50%;
+  position: absolute;
+	top: 10px;
+	left: 0px;
+
+}
+
+/* ====================
+banner part end
+===================== */
+/* ====================
+about part start
+===================== */
+.about{
+  padding-top: 156px;
+  padding-bottom: 130px;
+  
+}
+.aboutImgPrat{
+  position: relative;
+}
+.aboutimg1{
+  z-index: 1;
+  
+}
+.aboutimg2 {
+	position: absolute;
+bottom: 39px;
+left: 497px;
+	z-index: 1;
+  animation: aboutimg2 2s infinite linear alternate;
+}
+@keyframes aboutimg2{
+  from{
+    bottom:55px;
+    left: 515px;
+   
+  }to{
+    bottom: 35px;
+    left: 490px;
+  }
+}
+.aboutimg3 {
+	position: absolute;
+  top: -54px;
+  left: -10px;
+  z-index: -1;
+  animation: aboutimg3 2s infinite linear alternate;
+}
+@keyframes aboutimg3{
+  from{
+   
+    top:-25px;
+    right: -17px;
+  }to{
+    top: -54px;
+    right: -10px;
+
+  }
+}
+.about .title2 {
+	margin-top: 58px;
+	margin-left: 60px;
+}
+/*  h3 ,h6, p commne csss */
+.about .title2 ul{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #5B5F77;
+  
+  
+}
+.about .title2 ul li{
+  margin-bottom: 18px;
+}
+.about .title2 ul li i{
+  margin-right: 12px;
+  color: #52C5B6;
+}
+.about .title2 a{ 
+  font-size: 18px;
+  font-weight: 600;
+  background: #FD5F36;
+  padding: 14px 28px;
+  font-family: 'Poppins', sans-serif;
+border-radius: 5px;
+text-transform: capitalize;
+  color: #fff;
+  border: 2px solid transparent;
+  display: inline-block;
+  margin-top: 40px;
+  transition: .4s;
+}
+.about .title2 a:hover{
+  background-color: transparent;
+  border-color: red;
+  color: red;
+}
+/* ====================
+about part end
+===================== */
+/* ====================
+service part end
+===================== */
+.service{
+  background-color: #FAFAFA;
+  padding-top: 112px;
+  padding-bottom: 128px;
+  
+}
+.service .serviceDevide{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.service .para1{
+  width: 538px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #5B5F77;
+
+}
+.service .title2 h3{
+ width: 415px;
+ margin-bottom: 50px;
+  
+}
+/* ==========
+Card one 
+=========== */
+.service .colorCard{
+  background-color: red;
+  border-radius: 10px;
+  transition: .4s;
+}
+.service .ServicCard{
+  text-align: center;
+  padding: 40px 24px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  transform: translateY(0);
+  transition: .4s;
+  
+}
+.service .imgCard{
+  position: relative;
+
+}
+.service .colorCard:hover .ServicCard{
+  transform: translateY(-15px);
+
+}
+
+.service .round {
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	border: 2px solid red;
+	position: absolute;
+	top: 27px;
+	left: 98px;
+  animation: fan 4s infinite linear;
+}
+.service .roundChild {
+	width: 13px;
+	height: 13px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	top: 18px;
+	left: 3px;
+  
+}
+@keyframes fan{
+  from{
+    transform: rotate(360deg);
+  }to{
+    transform: rotate(0deg);
+
+  }
+}
+
+/* ==========
+Card one 
+=========== */
+/* ==========
+Card two 
+=========== */
+.service .colorCard2{
+  background-color: #52C5B6;
+}
+.service .round2{
+  border: 2px solid #52C5B6;
+
+}
+.service .roundChild2{
+  background-color: #52C5B6;
+
+}
+/* ==========
+Card two 
+=========== */
+/* ==========
+Card three 
+=========== */
+.service .colorCard3{
+  background-color: #2BCCFF;
+}
+.service .round3{
+  border: 2px solid #2BCCFF;
+
+}
+.service .roundChild3{
+  background-color: #2BCCFF;
+
+}
+/* ==========
+Card three 
+=========== */
+/* ==========
+Card three 
+=========== */
+.service .colorCard4{
+  background-color: #5D5FEF;
+}
+.service .round4{
+  border: 2px solid #5D5FEF;
+
+}
+.service .roundClild4{
+  background-color: #5D5FEF;
+
+}
+/* ==========
+Card three 
+=========== */
+
+/* ======
+card fixed value 
+=========*/
+
+.service .ServicCard img{
+  margin-bottom: 30px;
+}
+.service .ServicCard h3{
+  
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #30344E;
+  margin-bottom: 14px;
+  width: 261px;
+}
+.service .ServicCard p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #5B5F77;
+  margin-bottom: 14px;
+  line-height: 26px;
+  width: 268px;
+}
+
+/* ======
+card fixed value 
+=========*/
+.service .buttonDesign{
+  margin-top: 75px;
+}
+.service .buttonDesign ul{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.service .buttonDesign ul li{
+  
+}
+.service .buttonDesign ul li .round0{
+  font-size: 10px;
+  color: #DBDBDB;
+  position: relative;
+}
+.round01::after{
+  content: "";
+	width: 25px;
+	height: 25px;
+	border: 1px solid red;
+	border-radius: 50px;
+	position: absolute;
+	top: -7px;
+	left: -7px;
+
+}
+.service .buttonDesign ul li .round1{
+  margin-right: 30px;
+  color: #DBDBDB;
+  position: relative;
+
+}
+.round1::after {
+	content: "";
+	width: 47px;
+	height: 47px;
+	border: 1px solid #DBDBDB;
+	border-radius: 50px;
+	position: absolute;
+	top: -15px;
+	left: -16px;
+}
+.service .buttonDesign ul li .round5{
+  margin-left: 30px;
+  color: #DBDBDB;
+  position: relative;
+  
+}
+.round5::after {
+	content: "";
+	width: 47px;
+	height: 47px;
+border: 1px solid red;
+  color: black;
+	border-radius: 50px;
+	position: absolute;
+	top: -15px;
+	left: -16px;
+ 
+  
+}
+
+/* ====================
+service part end
+===================== */
+/* ====================
+solution part start
+===================== */
+.solution{
+  padding: 160px 0px;
+}
+/* part one
+==========
+========== */
+
+.solution .title4 h4{
+  font-size: 48px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #30344E;
+  margin-bottom: 20px;
+  width: 530px;
+}
+.solution .title4 p{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #5B5F77;
+  margin-bottom: 40px;
+  width: 505px;
+}
+.solution .title4 a{
+  font-size: 18px;
+  font-weight: 600;
+  background: #FD5F36;
+  padding: 14px 28px;
+  font-family: 'Poppins', sans-serif;
+border-radius: 5px;
+text-transform: capitalize;
+  color: #fff;
+  border: 2px solid transparent;
+  display: inline-block;
+  margin-top: 40px;
+  transition: .4s;
+}
+.solution .title4 a:hover{
+  background-color: transparent;
+  border-color: red;
+  color: red;
+}
+.solution h5{
+  margin-top: 70px;
+  font-size: 24px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #30344E;
+  margin-bottom: 16px;
+  width: 262px;
+}
+.solution p{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #5B5F77;
+  width: 258px
+}
+/* part one
+==========
+========== */
+
+/* part two
+==========
+========== */
+
+.imgFolder {
+  position: relative;
+  
+}
+.imgSulDiv{
+  background-color: #30344E;
+  width: 291px;
+  height: 100px;
+  border-radius: 10px;
+  position: absolute;
+  top: 178px;
+  left: 0;
+  animation: imgSulDiv 2s infinite linear ;
+}
+@keyframes imgSulDiv{
+  from{
+    top:170px;
+   
+  }to{
+    top:190px;
+   
+  }
+}
+.imgSul1{
+  position: absolute;
+  top: 190px;
+  left: 0;
+
+}
+.imgSulDiv2{
+  background-color: #52C5B6;
+  width: 220px;
+  height: 250px;
+  border-radius: 10px;
+  position: absolute;
+  top: -12px;
+  left: 430px;
+  animation: imgSulDiv2 2s infinite linear;
+}
+ @keyframes imgSulDiv2{
+  from{
+    top: -22px;
+    left: 440px;
+  }to{
+    top: 0px;
+    left: 420px;
+
+
+  }
+ }
+.imgSul2 {
+	position: absolute;
+	top: 0px;
+	left: 228px;
+}
+.imgSul3 {
+	position: absolute;
+	top: 384px;
+	left: 466px;
+	z-index: -1;
+}
+.imgSul4 {
+	position: absolute;
+	top: 68px;
+	left: 58px;
+  animation: imgSul4 2s infinite alternate linear;
+}
+@keyframes imgSul4{
+  from{
+    transform: translateX(-30px);
+  }to{
+    transform: translateX(0px);
+
+  }
+}
+.imgCard {
+	display: flex;
+	padding: 7px 18px;
+	background-color: #52C5B6;
+	position: absolute;
+	top: 458px;
+	left: 168px;
+  
+}
+
+.imgCard h4{
+  font-size: 70px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+
+}
+.imgCard h6{
+  font-size: 26px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  width: 235px;
+  padding-top: 10px;
+  padding-left: 10px;
+  position: relative;
+}
+.imgCard h6::after {
+	content: "";
+	width: 124px;
+	height: 3px;
+	background-color: #fff;
+	position: absolute;
+	top: 23px;
+	left: 104px;
+  animation: imgCardAfter 2s infinite linear;
+}
+@keyframes imgCardAfter{
+  from{
+    width: 0px;
+  }to{
+    width: 124px;
+
+  }
+}
+/* part two
+==========
+========== */ 
+
+/* ====================
+solution part end
+===================== */
+/* ====================
+export part start
+===================== */
+.export{
+  padding-top: 80px;
+  padding-bottom: 221px;
+  background-color: #30344E;
+  position: relative;
+  overflow: hidden;
+}
+.export .title2{
+  text-align: center;
+}
+.export .title2 h3{
+  color: #fff;
+  width: 100%
+}
+.export .title2 h6{
+  text-transform: uppercase;
+
+}
+.exportLeftImg {
+	position: absolute;
+	top: 125px;
+	left: -34px;
+  animation: exportLeftImg 2s infinite linear alternate;
+}
+@keyframes exportLeftImg{
+  from{
+    top: 125px;
+
+  }to{
+    top: 100px;
+  }
+}
+.exportRightImg{
+  position: absolute;
+  top: 0;
+  right: 0;
+  animation: exportRightImg 2s infinite linear alternate;
+
+}
+@keyframes exportRightImg{
+  from{
+    top: -40px;
+    right: -40px;
+
+  }to{
+    top: -20px;
+    right: -20px;
+  }
+}
+
+/* ================
+export2 part start
+================ */
+
+.expartCard{
+  position: relative;
+  transform: translateY(-150px);
+}
+/* hover part start
+================== */
+
+.expartCard:hover .overly {
+  background-color: #52C5B6;
+  color: #fff;
+}
+.expartCard:hover .overly h5  {
+  color: #fff;
+}
+.expartCard:hover .overly p  {
+  color: #fff;
+}
+.expartCard:hover .overly h5::after {
+  background-color: #fff;
+}
+.expartCard:hover .icon1 {
+  background-color: #52C5B6;
+  color: #fff;
+transition: .4s;
+}
+.expartCard:hover .icon2{
+  bottom: 88px;
+	right: 22px;
+transition: .4s;
+}
+.expartCard:hover .icon3{
+  bottom: 152px;
+	right: 22px;
+transition: .4s;
+}
+.expartCard:hover .icon4{
+  bottom: 218px;
+	right: 22px;
+transition: .4s;
+}
+.icon1:hover{
+  transform: rotate(360deg);
+}
+.icon2:hover{
+  transform: rotate(360deg);
+  background-color: #52C5B6 !important;
+}
+.icon3:hover{
+  transform: rotate(360deg);
+  background-color: #52C5B6 !important;
+}
+.icon4:hover{
+  transform: rotate(360deg);
+  background-color: #52C5B6 !important;
+}
+
+/* hover part end
+================== */
+.expartCard .imgSize{
+  width: 305px;
+}
+
+.expartCard .overly {
+	width: 220px;
+	height: 94px;
+	background-color: #fff;
+	padding: 22px 0px 22px 60px;
+	position: absolute;
+	bottom: -18px;
+	left: 0;
+	border-radius: 0px 10px 0px 0px;
+	transition: .4s;
+}
+.expartCard .overly h5{
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #30344E;
+  position: relative;
+  
+}
+.expartCard .overly h5::after {
+	content: "";
+	width: 32px;
+	height: 2px;
+	background-color: #52C5B6;
+	position: absolute;
+	top: 9px;
+	left: -44px;
+}
+.expartCard .overly p{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  color: #5B5F77;
+  
+}
+.expartCard .icon {
+	width: 44px;
+	height: 44px;
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 20px;
+	right: 22px;
+}
+.expartCard .icon1{
+  z-index: 1;
+}
+.expartCard .icon i {
+	font-size: 18px;
+	position: absolute;
+	top: 14px;
+	left: 14px;
+  transition: .4s;
+}
+.expartCard .icon2{
+  background-color: #fff;
+  position: absolute;
+	bottom: 20px;
+	right: 22px;
+  transition: .4s;
+}
+.expartCard .icon3{
+  background-color: #fff;
+  position: absolute;
+	bottom: 20px;
+	right: 22px;
+  transition: .4s;
+}
+.expartCard .icon4{
+  background-color: #fff;
+  position: absolute;
+  bottom: 20px;
+	right: 22px;
+  transition: .4s;
+}
+/* ================
+export2 part end
+================ */
+/* ====================
+export part end
+===================== */
+/* ====================
+invester part start
+===================== */
+.invester{
+  padding-bottom: 140px;
+}
+.invester .imgbox{
+  position: relative;
+}
+.invester .imgbox2 {
+	position: absolute;
+	top: 221px;
+	left: 0px;
+  animation: imgbox2 3s infinite linear;
+}
+@keyframes imgbox2{
+  from{
+    
+    width: 0px;
+  }to{
+    
+    width: 150px;
+
+  }
+}
+.invester .imgbox3 {
+	position: absolute;
+	bottom: -70px;
+	left: 380px;
+  animation: imgbox3 4s infinite linear;
+}
+@keyframes imgbox3{
+  from{
+    bottom: -50px;
+  }to{
+    bottom: -80px;
+  }
+}
+.invester .imgbox4 {
+	position: absolute;
+	top: 320px;
+	right: 24px;
+  animation: imgbox4 2s infinite linear alternate;
+}
+@keyframes imgbox4{
+  from{
+    top: 320px;
+	
+
+  }to{
+    top: 290px;
+
+  }
+}
+.invester .imgbox5 {
+	position: absolute;
+	bottom: -58px;
+	right: 278px;
+	z-index: -1;
+}
+
+/* Secone part */
+
+
+.invester h3 {
+	font-size: 42px;
+	font-weight: 600;
+	font-family: 'Poppins', sans-serif;
+	color: #30344E;
+	margin-bottom: 70px;
+	margin-top: 100px;
+}
+.invester .accordion-item{
+  border: 0;
+  margin-bottom: 13px;
+
+}
+
+.accordion-button.collapsed{
+  background: white !important;
+  color: #5B5F77 !important;
+  
+  
+}
+.accordion-button{
+  background: #52C5B6 !important;
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff !important;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 30px;
+  border: 1px solid black;
+}
+.accordion-body{
+  font-size: 18px;
+  font-weight: 400;
+  color: #5B5F77;
+  font-family: 'Poppins', sans-serif;
+  padding-left: 30px;
+  border: 1px solid #52C5B6;
+
+}
+.accordion-button::after{
+  background-image: none !important;
+  content: "+";
+  font-size: 22px;
+  color: #AFB1C1;
+}
+.accordion-button:not(.collapsed)::after{
+  content: "X";
+  font-size: 22px;
+  color: #fff;
+
+}
+/* ====================
+invester part end
+===================== */
+/* ====================
+compain part start
+===================== */
+.compain{
+  background-color: #52C5B6;
+  padding: 110px 0px;
+}
+.compain h3{
+  font-size: 38px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  margin-right: 40px;
+  width: 511px;
+}
+.compain a{
+  font-size: 18px;
+  font-weight: 600;
+  background: #FD5F36;
+  padding: 14px 28px;
+  font-family: 'Poppins', sans-serif;
+border-radius: 5px;
+text-transform: capitalize;
+  color: #fff;
+  border: 2px solid transparent;
+  display: inline-block;
+  margin-top: 40px;
+  transition: .4s;
+
+}
+.compain a:hover{
+  background-color: white;
+  border-color: red;
+  color: red;
+}
+.compain .ulOne{
+  display: flex;
+  justify-content: space-between;
+  font-size: 60px;
+  font-weight: 600;
+  color: #fff;
+font-family: 'Poppins', sans-serif;
+margin-bottom: 24px;
+}
+.compain .ulTwo{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  
+}
+.compain .ulThree{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+
+}
+/* ====================
+compain part end
+===================== */
+/* ====================
+aboutUs part start
+===================== */
+.aboutUs{
+  background-color: #FAFAFA;
+  padding: 120px 0px;
+}
+.aboutUs .title5 h4{
+  font-size: 48px;
+  font-weight: 600;
+  color: #30344E;
+  width: 642px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 60px;
+}
+.aboutUsCard{
+  padding: 66px 97px 34px 34px;
+  background-color: #fff;
+  border-radius: 10px;
+
+}
+.aboutUsCard .paraOne{
+  font-size: 24px;
+  font-weight: 400;
+  color: #6C6E81;
+  width: 642px;
+  font-family: 'Inter', sans-serif;
+  width: 652.03px;
+  margin-bottom: 43px;
+}
+.main6{
+  display: flex; 
+  position: relative;
+}
+.pain2{
+  margin-left: 30px;
+}
+.pain2 h2{
+  font-size: 24px;
+  font-weight: 600;
+  color: #30344E;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 5px;
+}
+.pain2 p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #30344E;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 5px;
+}
+.aboutusUl {
+	display: flex;
+	column-gap: 6px;
+	position: absolute;
+	right: -32px;
+	bottom: -6px;
+	font-size: 20px;
+  color: #FFC34C;
+}
+.ab_imgBox{
+  position: relative;
+}
+.ab_imgbox1 {
+	position: absolute;
+	right: -65px;
+	top: 0;
+	width: 42%;
+}
+
+.ab_imgbox2 {
+	position: absolute;
+	right: 0;
+	top: 110px;
+	width: 69%;
+}
+.ab_imgbox3 {
+	position: absolute;
+	left: -52px;
+	top: 134px;
+	width: 43%;
+}
+.ab_imgbox4 {
+	position: absolute;
+	left: -18px;
+	top: 199px;
+	width: 108%;
+}
+.ab_imgbox5 {
+	position: absolute;
+	right: -65px;
+	top: 306px;
+	width: 42%;
+}
+.ab_imgbox6 {
+	position: absolute;
+	right: 0px;
+	top: 416px;
+	width: 69%;
+}
+.aboutButton{
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  color: #DBDBDB;
+  margin-top: 70px;
+}
+.mediul i{
+font-size: 8px;
+}
+.fast{
+  margin-right: 30px;
+  position: relative;
+  font-size: 20px;
+}
+.fast::after {
+	content: "";
+	width: 46px;
+	height: 46px;
+	border: 1px solid red;
+	border-radius: 50%;
+	position: absolute;
+	top: -7px;
+	left: -13px;
+}
+.aboutButton .second{
+  position: relative;
+  
+}
+.aboutButton .second::after {
+	content: "";
+	width: 22px;
+	height: 22px;
+	border: 1px solid red;
+	border-radius: 50%;
+	position: absolute;
+	top: 4px;
+	left: -7px;
+}
+.aboutButton .second i{
+  color: red;
+}
+.last{
+  margin-left: 30px;
+  position: relative;
+  font-size: 20px;
+}
+.last::after {
+	content: "";
+	width: 46px;
+	height: 46px;
+	background-color: red;
+	border-radius: 50%;
+	
+	position: absolute;
+	top: -7px;
+	left: -11px;
+}
+.last i{
+  z-index: 1;
+  position: relative;
+  color: #fff !important;
+}
+/* ====================
+aboutUs part end
+===================== */
+/* ====================
+news part start
+===================== */
+.news{
+  padding: 130px 0px;
+  
+}
+.news .title2{
+  text-align: center;
+
+}
+.news .title2 h3{
+  width: 100%;
+}
+.newchiled{
+  display: flex;
+  align-items: center;
+}
+.newsCard{
+  margin-top: 60px;
+}
+.newsImgOne{
+  margin-bottom: 20px;
+  width: 98%;
+}
+.newsCard h4{
+  font-size: 23px;
+  font-weight: 600;
+  color: #3F3C5C;
+  font-family: 'Inter', sans-serif;
+  width: 445px;
+  margin-bottom: 8px;
+}
+.newsCard .newsparaOne{
+  font-size: 16px;
+  font-weight: 400;
+  color: #5B5F77;
+  font-family: 'Inter', sans-serif;
+  width: 418px;
+  margin-bottom: 18px;
+}
+.newparaTwo{
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #9C9BA9;
+  font-family: 'Inter', sans-serif;
+}
+.newImg{
+  margin-left: 52px;
+  margin-bottom: 10px;
+}
+.newh6{
+  margin-left: 34px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #9C9BA9;
+  font-family: 'Inter', sans-serif;
+}
+/* ====================
+news part end
+===================== */
+/* ====================
+footer part end
+===================== */
+.footer{
+  background-color: #30344E;
+  padding-top: 110px;
+  padding-bottom: 30px;
+}
+.footerUlOne{
+  display: flex;
+  column-gap: 18px;
+}
+
+.partOne p{
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  width: 262px;
+  margin-top: 26px;
+  margin-bottom: 24px;
+
+}
+.footerUlTwo{
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+.footerUlTwo li{
+  margin-bottom: 12px;
+}
+.footerUlTwo .footerli{
+  margin-bottom: 20px;
+  color: #52C5B6;
+  font-size: 18px;
+  font-weight: 500;
+}
+.lastLiWidth{
+  width: 282px;
+}
+.liButton a{
+  font-size: 18px;
+  font-weight: 600;
+  background: #FD5F36;
+  padding: 14px 28px;
+  font-family: 'Poppins', sans-serif;
+border-radius: 5px;
+text-transform: capitalize;
+  color: #fff;
+  border: 2px solid transparent;
+  display: inline-block;
+  margin-top: 40px;
+  transition: .4s;
+
+}
+.liButton a:hover{
+  background-color: white;
+  border-color: red;
+  color: red;
+}
+.footerMain{
+  display: flex;
+  justify-content: space-between;
+}
+.footerLastPara{
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  margin-top: 84px;
+  position: relative;
+}
+.footerLastPara::after {
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 2px;
+	background-color: #D2D2D2;
+}
+/* ====================
+footer part end
+===================== */
